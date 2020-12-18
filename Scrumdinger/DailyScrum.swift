@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct DailyScrum {
+struct DailyScrum: Identifiable {
+    var id: UUID = UUID()
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int

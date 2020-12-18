@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE2B79F4258CAA540056DC27 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B79F3258CAA540056DC27 /* Color+Codable.swift */; };
+		FE2B79F7258CABE50056DC27 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B79F6258CABE50056DC27 /* ScrumsView.swift */; };
 		FECE4569258C9F6D005B426C /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE4568258C9F6D005B426C /* ScrumdingerApp.swift */; };
 		FECE456B258C9F6D005B426C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE456A258C9F6D005B426C /* MeetingView.swift */; };
 		FECE456D258C9F6E005B426C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECE456C258C9F6E005B426C /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		FE2B79F3258CAA540056DC27 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		FE2B79F6258CABE50056DC27 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		FECE4565258C9F6D005B426C /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECE4568258C9F6D005B426C /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		FECE456A258C9F6D005B426C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				FE2B79F2258CAA390056DC27 /* Model */,
 				FECE4568258C9F6D005B426C /* ScrumdingerApp.swift */,
+				FE2B79F6258CABE50056DC27 /* ScrumsView.swift */,
 				FECE457C258CA613005B426C /* CardView.swift */,
 				FECE456A258C9F6D005B426C /* MeetingView.swift */,
 				FECE4579258CA517005B426C /* DailyScrum.swift */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECE456B258C9F6D005B426C /* MeetingView.swift in Sources */,
+				FE2B79F7258CABE50056DC27 /* ScrumsView.swift in Sources */,
 				FECE457A258CA517005B426C /* DailyScrum.swift in Sources */,
 				FECE457D258CA613005B426C /* CardView.swift in Sources */,
 				FE2B79F4258CAA540056DC27 /* Color+Codable.swift in Sources */,
