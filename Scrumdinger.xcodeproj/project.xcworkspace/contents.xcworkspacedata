@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/boom/GitHub/Scrumdinger/Scrumdinger/Models">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2B79F4258CAA540056DC27 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B79F3258CAA540056DC27 /* Color+Codable.swift */; };
 		FECE4569258C9F6D005B426C /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE4568258C9F6D005B426C /* ScrumdingerApp.swift */; };
 		FECE456B258C9F6D005B426C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE456A258C9F6D005B426C /* MeetingView.swift */; };
 		FECE456D258C9F6E005B426C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECE456C258C9F6E005B426C /* Assets.xcassets */; };
 		FECE4570258C9F6E005B426C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECE456F258C9F6E005B426C /* Preview Assets.xcassets */; };
+		FECE457A258CA517005B426C /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE4579258CA517005B426C /* DailyScrum.swift */; };
+		FECE457D258CA613005B426C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE457C258CA613005B426C /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE2B79F3258CAA540056DC27 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		FECE4565258C9F6D005B426C /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECE4568258C9F6D005B426C /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		FECE456A258C9F6D005B426C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		FECE456C258C9F6E005B426C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECE456F258C9F6E005B426C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FECE4571258C9F6E005B426C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECE4579258CA517005B426C /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		FECE457C258CA613005B426C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE2B79F2258CAA390056DC27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B79F3258CAA540056DC27 /* Color+Codable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FECE455C258C9F6C005B426C = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +66,11 @@
 		FECE4567258C9F6D005B426C /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				FE2B79F2258CAA390056DC27 /* Model */,
 				FECE4568258C9F6D005B426C /* ScrumdingerApp.swift */,
+				FECE457C258CA613005B426C /* CardView.swift */,
 				FECE456A258C9F6D005B426C /* MeetingView.swift */,
+				FECE4579258CA517005B426C /* DailyScrum.swift */,
 				FECE456C258C9F6E005B426C /* Assets.xcassets */,
 				FECE4571258C9F6E005B426C /* Info.plist */,
 				FECE456E258C9F6E005B426C /* Preview Content */,
@@ -139,6 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECE456B258C9F6D005B426C /* MeetingView.swift in Sources */,
+				FECE457A258CA517005B426C /* DailyScrum.swift in Sources */,
+				FECE457D258CA613005B426C /* CardView.swift in Sources */,
+				FE2B79F4258CAA540056DC27 /* Color+Codable.swift in Sources */,
 				FECE4569258C9F6D005B426C /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
