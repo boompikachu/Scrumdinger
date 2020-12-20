@@ -45,6 +45,8 @@ struct DetailView: View {
                         HStack {
                             Image(systemName: "calendar")
                             Text(history.date, style: .date)
+                            Spacer()
+                            Text("\(history.lengthInMinutes) min")
                         }
                     }
                 }
